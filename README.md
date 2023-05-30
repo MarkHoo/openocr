@@ -1,4 +1,4 @@
-# openocr
+# OpenOCR
 
 #### Installing
 
