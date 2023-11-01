@@ -12,6 +12,13 @@ $ pip install -U openocr
 
 ```
 from openocr import OpenOCR
+
+# Create an OpenOCR object
+ocr = OpenOCR()
+
+# Use the object to perform OCR on an image
+text = ocr.ocr_image('path_to_your_image.jpg')
+print(text)
 ```
 
 #### Links
